@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4fdfd;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #00796b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #c8fff4;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #b2dfdb;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: #004d40;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #00695c;
+}
+
+.section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section h2 {
+  color: #00796b;
+  margin-bottom: 30px;
+  font-size: 30px;
+  position: relative;
+}
+
+.section h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #00796b;
+  margin: 10px auto 0;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 14px;
+  text-align: center;
+  font-size: 15px;
+}
+
+th {
+  background-color: #e0f2f1;
+  color: #004d40;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e0f7fa;
+}
+
+.contact h2 {
+  color: #004d40;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+.contact p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.ambulance-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  color: #ffffff;
+  background-color: #00796b;
+  border: 2px solid #004d40;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ambulance-btn:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 18px 10px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* Spacing between sections */
+.section + .section {
+  margin-top: 50px;
+}
